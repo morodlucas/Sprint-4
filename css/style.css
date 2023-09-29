@@ -22,6 +22,11 @@ header {
     margin-top: 48px;
 }
 
+.botao{
+    text-decoration: none;
+    color: #fff;
+}
+
 #header-title {
     color: #000000;
     margin: 0;
@@ -58,6 +63,14 @@ main {
     border-radius: 7px;
 }
 
+.product-card2 {
+    width: 1200px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
 .product-card img {
     max-width: 100%;
     height: auto;
@@ -83,4 +96,27 @@ main {
 
 .comprar-button:hover {
     background-color: #ff3333; /* Darker red on hover */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.row {
+    margin: 5px;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
