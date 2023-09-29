@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the page */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    margin-top: 3px;
+    border-top: hidden 1px #ff6666;
+    border-bottom: hidden 4px #ff6666;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 30px;
+    margin-top: 48px;
+}
+
+#header-title {
+    color: #000000;
+    margin: 0;
+}
+
+#avaliar-nos {
+    background-color: #ff3333; /* Light red button color */
+    color: #fff; /* White text color */
+    border: red solid 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#avaliar-nos:hover {
+    background-color: #ff6666; /* Darker red on hover */
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Product card styles (keep these as previously defined) */
+.product-card {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 7px;
+    margin-top: 13px;
+}
+
+.product-card p {
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.comprar-button {
+    background-color: #ff6666; /* Light red button color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.comprar-button:hover {
+    background-color: #ff3333; /* Darker red on hover */
+}
